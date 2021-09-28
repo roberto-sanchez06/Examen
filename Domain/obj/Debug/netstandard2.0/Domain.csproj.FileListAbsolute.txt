@@ -1,0 +1,9 @@
+E:\Examen\Examen\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+E:\Examen\Examen\Domain\bin\Debug\netstandard2.0\Domain.dll
+E:\Examen\Examen\Domain\bin\Debug\netstandard2.0\Domain.pdb
+E:\Examen\Examen\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+E:\Examen\Examen\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+E:\Examen\Examen\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+E:\Examen\Examen\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+E:\Examen\Examen\Domain\obj\Debug\netstandard2.0\Domain.dll
+E:\Examen\Examen\Domain\obj\Debug\netstandard2.0\Domain.pdb
