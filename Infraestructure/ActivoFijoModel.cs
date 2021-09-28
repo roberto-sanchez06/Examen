@@ -8,9 +8,9 @@ namespace Infraestructure
     public class ActivoFijoModel
     {
         private ActivoFijo[] ActivosFijos;
-        public ActivoFijo GetActivoFijo(int i)
+        public string GetActivoFijo(int i)
         {
-            return ActivosFijos[i];
+            return ActivosFijos[i].Mostrar();
         }
         public void Add(ActivoFijo af)
         {

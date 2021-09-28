@@ -29,6 +29,15 @@ namespace Examen.Forms
 
         private void BtnAceptar_Click(object sender, EventArgs e)
         {
+            try
+            {
+                ValidarCampos(txtNombre.Text, txtDesc.Text, txtCod.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return;
+            }
             ActivoFijo af = new ActivoFijo()
             {
                 Nombre = txtNombre.Text,
@@ -62,7 +71,7 @@ namespace Examen.Forms
 
         private void TxtCod_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsNumber(e.KeyChar))
+            if (!char.IsNumber(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 MessageBox.Show("Solo se permiten numeros");
                 e.Handled = true;
